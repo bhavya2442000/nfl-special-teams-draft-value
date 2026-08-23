@@ -1,0 +1,27 @@
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:              log_games   R-squared:                       0.164
+Model:                            OLS   Adj. R-squared:                  0.151
+Method:                 Least Squares   F-statistic:                     16.00
+Date:                Sun, 23 Aug 2026   Prob (F-statistic):           2.41e-09
+Time:                        11:34:55   Log-Likelihood:                -419.86
+No. Observations:                 200   AIC:                             847.7
+Df Residuals:                     196   BIC:                             860.9
+Df Model:                           3
+Covariance Type:                  HC3
+==============================================================================================
+                                 coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+Intercept                      4.9536      0.611      8.109      0.000       3.756       6.151
+C(position_name)[T.Punter]     0.1504      0.288      0.522      0.602      -0.415       0.715
+pick100                       -0.9315      0.776     -1.200      0.230      -2.453       0.590
+I(pick100 ** 2)               -0.0564      0.214     -0.264      0.792      -0.475       0.362
+==============================================================================
+Omnibus:                       51.884   Durbin-Watson:                   1.613
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               11.671
+Skew:                          -0.240   Prob(JB):                      0.00292
+Kurtosis:                       1.919   Cond. No.                         44.3
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

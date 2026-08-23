@@ -1,0 +1,11 @@
+{
+  "sample_n": 200,
+  "kickers": 102,
+  "punters": 98,
+  "games_by_round_kruskal_h": 22.264110882604317,
+  "games_by_round_p_value": 1.4635573652287347e-05,
+  "wav_by_round_kruskal_h": 18.804339056090424,
+  "wav_by_round_p_value": 8.254478792064221e-05,
+  "games_48_by_round_chi_square": 15.124245979276317,
+  "games_48_by_round_p_value": 0.0005197706041237469
+}

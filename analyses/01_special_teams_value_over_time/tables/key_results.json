@@ -1,0 +1,15 @@
+{
+  "analysis_year_min": 1980,
+  "analysis_year_max": 2025,
+  "total_picks": 12670,
+  "special_teams_picks": 253,
+  "special_teams_share_pct": 1.9968429360694553,
+  "trend_percentage_points_per_year": -0.02171727239413233,
+  "trend_p_value": 0.014812974516528913,
+  "trend_r_squared": 0.12758684044255872,
+  "outcome_cohort_max": 2015,
+  "regression_n": 8176,
+  "regression_r_squared": 0.21608406915278233,
+  "st_log_wav_coefficient": 0.32091058561808455,
+  "st_log_wav_p_value": 0.0027481686948068245
+}
